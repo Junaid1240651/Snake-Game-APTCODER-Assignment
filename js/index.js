@@ -115,6 +115,7 @@ else{
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e =>{
+    musicSound.play();
     inputDir = {x: 0, y: 1} // Start the game
     moveSound.play();
     switch (e.key) {
