@@ -115,8 +115,8 @@ else{
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e =>{
-    musicSound.play();
     inputDir = {x: 0, y: 1} // Start the game
+    musicSound.play();
     moveSound.play();
     switch (e.key) {
         case "ArrowUp":
